@@ -1,4 +1,6 @@
-// Binary search
+// Binary search using a function find the target
+// let num =[2,9,17,20,22,24,34,45];
+// let target=2
 function binary(num,target){
     let left = 0;
     let right =num.length -1;
@@ -18,10 +20,11 @@ function binary(num,target){
 }
 let num =[2,9,17,20,22,24,34,45];
 let target=2
-// console.log(num[target])
 let output = binary(num,target)
 console.log(output)
-
+// using binary search get the target
+// let numm=[100,200,300,400,500,600,700,,800,900];
+// target=200;
 function binry(numm,target){
     let left=0;
     let right=numm.length-1
@@ -44,7 +47,11 @@ let numm=[100,200,300,400,500,600,700,,800,900];
 target=200;
 let result=binry(numm,target)
 console.log(result);
-// binary without using a  function
+
+
+// using binary search get the target
+// let numbers=[0.1,0.3,0.4,0.5,0.7,0.9]
+// let targe=9.0;
 function biiinay(numbers,targe){
 let left=0;
 let right=numbers.length-1;
@@ -70,6 +77,7 @@ biiinay(numbers,targe)
 
 
 // mergesort
+// let array=[10,50,30,50,70,80,2,9]
 function divideArray(array){
     if (array.length <=1 ) {
         return array
@@ -84,7 +92,7 @@ function divideArray(array){
      empty=[]
     while(left.length && right.length){
     
-   if (left[0] < right[0]) {
+   if (left[0] <right[0]) {
     empty.push(left.shift())
    }
    else{
@@ -95,7 +103,8 @@ function divideArray(array){
    }
 let array=[10,50,30,50,70,80,2,9]
 console.log(divideArray(array))
-
+// mergesort
+// let arry=[50.9,20.0,30.5,90.5,34.9,56.0,12.4]
 function divideArry(arry){
     if (arry.length <=1 ) {
         return arry
