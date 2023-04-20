@@ -130,3 +130,23 @@ function divideArry(arry){
    }
 let arry=[50.9,20.0,30.5,90.5,34.9,56.0,12.4]
 console.log(divideArry(arry))
+
+
+
+let number=(c,d,e,r,y);
+let sum=c+d+e+r+y
+console.log(3,7,8,9,19);
+
+
+// function item(items) {
+    //  for (let o= 0; o < array.length; o++) {
+    //   let empty=[]
+    //   if (o in items===items ) {
+    //     console.log(item)
+    //     o++
+    //   }
+    //  } 
+    // }
+    // itmes=["mango","orange","pineapple","mango","strawberries","pineapple"]
+    // let output=item(items)
+    // console.log(empty.push(item[o]));
