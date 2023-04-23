@@ -75,12 +75,6 @@ let array=["The" ,"begining" ,"is" ,"bad"];
 
 console.log(long_words(array));
 
-// Write a function that takes two arrays of numbers and returns a new array
-//  that contains the intersection of the two arrays (i.e., the numbers that appear in both arrays).
-function twoArray(a,b) {
- return  
-}
-
 // Write a function that takes an array of numbers and returns the average of all the numbers in the array.
 
 function average(arraynumbers) {
